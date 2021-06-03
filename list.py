@@ -1,0 +1,20 @@
+lst= []
+chem= input("Enter Chemistry marks: ")
+chem= int(chem)
+lst.append(chem)
+phy= input("Enter Physics marks: ")
+phy= int(phy)
+lst.append(phy)
+eng= input("Enter English marks: ")
+eng= int(eng)
+lst.append(eng)
+print("Marks you entered", lst)
+a= sum(lst)
+per_cent= (a/300)*100
+print("Congratulations!You passed with",per_cent,"%")
+print(len(lst))
+del lst[2]
+print(lst)
+geo= input("Enter Geography marks: ")
+geo= int(geo)
+lst.append(geo)

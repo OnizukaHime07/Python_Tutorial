@@ -1,0 +1,22 @@
+lst= []
+a= input("Enter a number: ")
+a= int(a)
+lst.append(a)
+b= input("Enter a number: ")
+b= int(b)
+lst.append(b)
+c= input("Enter a number: ")
+c= int(c)
+lst.append(c)
+d= input("Enter a number: ")
+d= int(d)
+lst.append(d)
+e= input("Enter a number: ")
+e= int(e)
+lst.append(e)
+lst.sort()
+print(lst)
+lst.reverse()
+print(lst)
+
+
