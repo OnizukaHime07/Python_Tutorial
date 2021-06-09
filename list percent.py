@@ -8,13 +8,14 @@ lst.append(phy)
 eng= input("Enter English marks: ")
 eng= int(eng)
 lst.append(eng)
+math= input("Enter Maths marks: ")
+math= int(math)
+lst.append(math)
 print("Marks you entered", lst)
 a= sum(lst)
-per_cent= (a/300)*100
-print("Congratulations!You passed with",per_cent,"%")
-print(len(lst))
-del lst[2]
-print(lst)
-geo= input("Enter Geography marks: ")
-geo= int(geo)
-lst.append(geo)
+per_cent= (a/400)*100
+if per_cent>70: 
+    print("You have passed with Grade A", per_cent,"%")
+else: 
+    print("You have passed with Grade B", per_cent,"%")
+    
