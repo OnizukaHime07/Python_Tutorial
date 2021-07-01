@@ -1,3 +1,4 @@
-list = ["geeks", "for", "geeks"]
-for index in range(len(list)):
-    print (list[index])
+names = ["mark","john","gigi","protik"]
+for i in names:
+    mesage = "You are invited to a party " + i
+    print(mesage)
